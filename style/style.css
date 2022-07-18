@@ -165,3 +165,61 @@ hr {
 }
 
 /* course section end */
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Media query break point 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Extra small */
+@media only screen and (max-width:575px) {
+    .container {
+        width: 100%;
+    }
+
+    .players,
+    .blogs,
+    .courses {
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-row-gap: 30px; */
+    }
+
+    .player,
+    .blog {
+        align-items: center;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+
+    .courses {
+        justify-items: center
+    }
+
+    /* .courses {} */
+
+}
+
+/* Small */
+@media only screen and (min-width:576px) and (max-width:767px) {
+
+    .players,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .player {
+        justify-content: center
+    }
+}
+
+/* Medium */
+@media only screen and (min-width:768px) and (max-width:991px) {}
+
+/* Large */
+@media only screen and (min-width:992px) and (max-width:1199px) {}
+
+/* Extra large */
+@media only screen and (min-width:1200px) and (max-width:1399px) {}
+
+/* Extra extra large */
+@media only screen and (min-width:1400px) {}
