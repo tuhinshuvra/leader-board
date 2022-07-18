@@ -60,8 +60,15 @@ hr {
 
 /* top players section end*/
 /* blog section start*/
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 26px;
+}
+
 .blog {
     display: flex;
+    /* margin-bottom: 26px; */
 }
 
 .blog .thumbnail img {
@@ -69,7 +76,7 @@ hr {
     height: 117px;
 }
 
-.blog_ionfo {
+.blog_info {
     margin-left: 16px;
 }
 
