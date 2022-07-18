@@ -107,6 +107,10 @@ hr {
     column-gap: 24px;
 }
 
+.course {
+    padding: 13px;
+}
+
 .course_banner img {
     width: 224px;
     height: 104px;
