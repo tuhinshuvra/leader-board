@@ -21,6 +21,7 @@ main {
 
 hr {
     border: 1px solid #D1D1D1;
+    margin: 30px 0;
 }
 
 /* common styles end */
@@ -49,7 +50,7 @@ hr {
     height: 56px;
 }
 
-.player-name {
+.player_name {
     margin-left: 16px;
     /* font-style: normal; */
     /* font-weight: 500; */
@@ -58,3 +59,32 @@ hr {
 
 
 /* top players section end*/
+/* blog section start*/
+.blog {
+    display: flex;
+}
+
+.blog .thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog_ionfo {
+    margin-left: 16px;
+}
+
+.blog_title {
+    font-size: 20px;
+}
+
+.blog_author {
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+.blog_author a {
+    text-decoration: none;
+    color: #562EFF;
+}
+
+/* blog section end*/
